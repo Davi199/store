@@ -48,8 +48,10 @@ body {
 
 
 .nav-search {
+	
 	width: 16em;
 	height: 2em;
+	position: relative;
 
   -webkit-border-radius:4px;
      -moz-border-radius:4px;
@@ -78,3 +80,13 @@ body {
 
 
 
+.icon-search
+{
+	color: black;
+	right: 0;
+	top: 0;
+	position: absolute;
+	right: 12em;
+	top: 2em;
+
+	}
