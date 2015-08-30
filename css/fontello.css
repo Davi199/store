@@ -54,7 +54,16 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-search:before { content: '\e800'; } /* '' */
+.icon-search:before { 
+color:gray;
+  right: 0;
+  top: 0;
+  position: absolute;
+  right: 0;
+  top: 0.5em;
+
+
+  content: '\e800'; } /* '' */
 .icon-home:before { content: '\e801'; } /* '' */
 .icon-dollar:before { content: '\e802'; } /* '' */
 .icon-laptop:before { content: '\e803'; } /* '' */
